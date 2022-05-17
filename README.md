@@ -39,16 +39,15 @@ Windows10[^2]で実行可能です
 <br>
 <br>
 
-8. ここの赤線のURLをコピー（あるいは覚えて）ください（最後の「：2000」も含めて）
+![サーバー起動](https://user-images.githubusercontent.com/52102146/168831607-792dd5e0-bb0e-436e-bd37-b0bf2ca8c911.png)
 
-![赤線のURLをコピー](https://user-images.githubusercontent.com/52102146/168811280-86ebf1c1-be20-436b-b069-7ec1895b9f5d.png)
 
 <br>
 <br>
 
-9. このURLをBouyomichan ConnectorのMODを有効化したワールドの「コンフィグ設定」⇒「Bouyomichan Connector」⇒「CoeFont APIと接続する独自APIのURL」に張り付けてください
+9. 「http://localhost:2000」 をBouyomichan ConnectorのMODを有効化したワールドの「コンフィグ設定」⇒「Bouyomichan Connector」⇒「CoeFont APIと接続する独自APIのURL」に張り付けてください
 
-![CoeFont APIと接続する独自APIのURL](https://user-images.githubusercontent.com/52102146/168811830-303664ce-5fb3-4125-af7f-e26c03790385.png)
+![URLを入力する](https://user-images.githubusercontent.com/52102146/168828731-225c7592-7c80-45cc-8732-7b085905426f.png)
 
 <br>
 <br>
