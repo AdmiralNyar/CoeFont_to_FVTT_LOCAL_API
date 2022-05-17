@@ -5,7 +5,7 @@ Windows10[^2]で実行可能です
 <br>
 <br>
 
-# ブラウザ（Chrome[^3], Edge, Opera[^4]）上のFVTTのワールドの場合の注意点
+# ブラウザ（Chrome[^3], Edge[^2], Opera[^4]）上のFVTTのワールドの場合の注意点
 ローカルに立てたAPIサーバーがhttpsに対応していないため、ブラウザと使用する場合には「混在コンテンツエラー」には現状じかれてしまいます。(デスクトップアプリケーションの場合そのまま使用できます)
 ブラウザごとに下記の設定で対応させることができるので、セキュリティ上問題ないと思われたら設定変更してください。
 - Chrome:ブラウザURL左の鍵マークから「サイトの設定」に移動し、「権限」内の「安全でないコンテンツ」を「ブロック」から「許可」に変更してください（そのFVTTのサイトのみにこの設定が適用されます。[参考](https://experienceleague.adobe.com/docs/target/using/experiences/vec/troubleshoot-composer/mixed-content.html?lang=ja)）
