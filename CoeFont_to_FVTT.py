@@ -121,7 +121,7 @@ def server_lunch():
       print("別のプロセスが実行中です")
     else:
       port = 2000
-      uvicorn.run(app, host='0.0.0.0', port=port)
+      uvicorn.run(app, host='localhost', port=port)
 
 activate = True
 

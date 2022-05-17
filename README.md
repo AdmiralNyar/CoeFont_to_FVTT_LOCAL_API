@@ -4,6 +4,14 @@ Windows10[^2]で実行可能です
 <br>
 <br>
 <br>
+
+# ブラウザ（Chrome[^3], Edge, Opera[^4]）上のFVTTのワールドの場合の注意点
+ローカルに立てたAPIサーバーがhttpsに対応していないため、ブラウザと使用する場合には「混在コンテンツエラー」には現状じかれてしまいます。(デスクトップアプリケーションの場合そのまま使用できます)
+ブラウザごとに下記の設定で対応させることができるので、セキュリティ上問題ないと思われたら設定変更してください。
+- Chrome:ブラウザURL左の鍵マークから「サイトの設定」に移動し、「権限」内の「安全でないコンテンツ」を「ブロック」から「許可」に変更してください（そのFVTTのサイトのみにこの設定が適用されます。[参考](https://experienceleague.adobe.com/docs/target/using/experiences/vec/troubleshoot-composer/mixed-content.html?lang=ja)）
+- Edge:「設定」から「Cookieとサイトのアクセス許可」に移動し、「セキュリティで保護されていないコンテンツ」をクリック。「追加」からそのFVTTのURLを張り追加する。（そのFVTTのサイトのみにこの設定が適用されます。）
+- Opera:「設定」から「プライバシーとセキュリティ」内の「サイトの設定」に移動し、「安全でないコンテンツ」をクリック。「安全でないコンテンツの表示を許可するサイト」にそのFVTTのURLを張り追加する。（そのFVTTのサイトのみにこの設定が適用されます。）
+
 # インストールの仕方と使い方
 1. 右側リリース内の最新のリリースから、`hontai.zip`ファイルをダウンロードして解凍してください
  <br>
@@ -39,16 +47,15 @@ Windows10[^2]で実行可能です
 <br>
 <br>
 
-8. ここの赤線のURLをコピー（あるいは覚えて）ください（最後の「：2000」も含めて）
+![サーバー起動](https://user-images.githubusercontent.com/52102146/168831607-792dd5e0-bb0e-436e-bd37-b0bf2ca8c911.png)
 
-![赤線のURLをコピー](https://user-images.githubusercontent.com/52102146/168811280-86ebf1c1-be20-436b-b069-7ec1895b9f5d.png)
 
 <br>
 <br>
 
-9. このURLをBouyomichan ConnectorのMODを有効化したワールドの「コンフィグ設定」⇒「Bouyomichan Connector」⇒「CoeFont APIと接続する独自APIのURL」に張り付けてください
+9. 「http://localhost:2000」 をBouyomichan ConnectorのMODを有効化したワールドの「コンフィグ設定」⇒「Bouyomichan Connector」⇒「CoeFont APIと接続する独自APIのURL」に張り付けてください
 
-![CoeFont APIと接続する独自APIのURL](https://user-images.githubusercontent.com/52102146/168811830-303664ce-5fb3-4125-af7f-e26c03790385.png)
+![URLを入力する](https://user-images.githubusercontent.com/52102146/168828731-225c7592-7c80-45cc-8732-7b085905426f.png)
 
 <br>
 <br>
@@ -63,4 +70,6 @@ Windows10[^2]で実行可能です
 
 
 [^1]:CoeFontは株式会社CoeFontの登録商標です。
-[^2]:Windows10は、MicrosoftCorporationの米国及びその他の国における商標または登録商標です。
+[^2]:Windows10, Edgeは、MicrosoftCorporationの米国及びその他の国における商標または登録商標です。
+[^3]:Google Chromeは、Google Inc. の登録商標です。
+[^4]:Opera は Opera Software ASA の商標または登録商標です。
