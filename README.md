@@ -1,5 +1,6 @@
 # CoeFont_to_FVTT_LOCAL_API
-CoeFont[^1] APIとFVTT modの[Bouyomichan Connector]()を接続するためのローカルAPIサーバーです
+CoeFont[^1] APIとFVTT modの[Bouyomichan Connector](https://github.com/AdmiralNyar/Bouyomichan-Connector)を接続するためのローカルAPIサーバーです<br>
+Windows10[^2]で実行可能です
 <br>
 <br>
 <br>
@@ -60,3 +61,6 @@ CoeFont[^1] APIとFVTT modの[Bouyomichan Connector]()を接続するための�
 # EXE化
 実行形式ファイルが心配な人は、Python 3.10.4(32bit)にてPyInstaller(5.0.1)で`pyinstaller CoeFont_to_FVTT.spec`を実行してください（CoeFont_to_FVTT.pyファイル内でimportしているパッケージをインストールください）
 
+
+[^1]:CoeFontは株式会社CoeFontの登録商標です。
+[^2]:Windows10は、MicrosoftCorporationの米国及びその他の国における商標または登録商標です。
