@@ -1,0 +1,2 @@
+# CorFont_to_FVTT_LOCAL_API
+CoeFont APIとFVTT modのBouyomichan Connectorを接続するためのローカルAPIサーバーです
